@@ -1,0 +1,7 @@
+6
+abcd 13890
+efgd 1410
+lunetis 680
+clear 540
+asdf 540
+qwer 540

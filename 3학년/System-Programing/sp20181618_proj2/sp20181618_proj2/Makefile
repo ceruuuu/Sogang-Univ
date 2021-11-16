@@ -1,0 +1,15 @@
+CC = gcc
+CFLAGS = -W -Wall
+TARGET = 20181618.out
+SRCS = 20181618.h 20181618.c
+OBJECTS = 20181618.o
+
+$(TARGET):$(OBJECTS)
+		$(CC) -o $(TARGET) $(OBJECTS) $(CFLAGS)
+
+$(OBJECTS): 20181618.h 20181618.c
+		$(CC) -c 20181618.c $(CFLAGS)
+
+clean:
+		rm -rf *.o *.out
+		
